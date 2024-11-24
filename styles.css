@@ -1,1 +1,80 @@
+/* ADD STYLE TO ALL HYPERLINKS IN THE STATE OF FOCUS */
 
+
+
+/* DO NOT CHANGE ANYTHING ELSE, USE IT AS A CLUE, IF YOU CODE THE HTML RIGHT, IT WILL LOOK RIGHT */
+html {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  }
+  body {
+    width:1050px;
+    margin:0 auto;
+  }
+  header {
+    background-color:rgba(255,255,255,.25);
+    border-radius:0 0 10px 10px;
+    padding:10px;
+  }
+  h1 {
+    font-size:55px;
+    text-align:center;
+  }
+  h1, h2, h3 {
+    font-family: 'Monoton', cursive;
+    color: #4B0082;
+  }
+  p, li {
+    font-family: 'Arima Madurai', cursive;
+    font-size:18px;
+  }
+  nav h2 {
+    visibility:hidden;
+    height:1px;
+  }
+  nav li {
+    display:inline-flex;
+  }
+  nav {
+    padding-bottom:25px;
+  }
+  nav a {
+    background-color:rgba(255,255,255,.35); 
+    padding:20px;
+    border-radius:10px;
+    width:80px;
+    text-decoration:none;
+    color: #4B0082;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-align:center;
+  }
+  nav a:hover {
+    background-color: #FF00FF;
+    color:#ffffff;
+  }
+  [href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+  }
+  .about {
+    width:75%;
+    float:left;
+  }
+  .things {
+    width:25%;
+    float:right;
+  }
+  h2 {
+    font-size:30px;
+    clear:both;
+  }
+  h3 {
+    font-size:20px;
+  }
+  footer {
+    clear:both;
+  }
+  
